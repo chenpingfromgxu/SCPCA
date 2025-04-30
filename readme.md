@@ -35,13 +35,13 @@
 1.  **克隆或下载代码库:**
     ```bash
     # 如果使用 git
-    git clone <your-repo-url>
-    cd <repository-folder>
+    git clone https://github.com/chenpingfromgxu/SCPCA.git
+    cd SCPCA
     ```
     或者直接下载代码文件。
 
 2.  **安装依赖项:**
-    在项目根目录下打开终端或命令行，运行以下命令：
+    在项目根目录下打开终端或命令行(推荐使用uv来管理环境)，运行以下命令：
     ```bash
     pip install -r requirements.txt
     ```
@@ -61,7 +61,7 @@
 2.  **运行脚本:**
     在终端中，确保您位于包含脚本的目录下，然后运行：
     ```bash
-    python run_scpca.py
+    python scpca.py
     ```
 
 ## 输出
